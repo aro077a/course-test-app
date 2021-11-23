@@ -1,0 +1,19 @@
+.header__container {
+  display: grid;
+  grid-auto-flow: column;
+  padding: 65px 0;
+  &__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__container {
+    justify-content: flex-start;
+    grid-auto-flow: unset;
+    gap: 16px;
+  }
+}

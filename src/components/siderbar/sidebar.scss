@@ -1,0 +1,14 @@
+@import "../styles/variables.scss";
+
+.sidebar__container {
+  background: $primary-light-pink;
+  padding: 127px 56px;
+  &__content {
+    display: grid;
+    justify-content: center;
+    gap: 75px;
+    &--item {
+      cursor: pointer;
+    }
+  }
+}
